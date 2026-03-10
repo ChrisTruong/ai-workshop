@@ -1,0 +1,6 @@
+services:
+  password-strength-checker-cli:
+    build: .
+    container_name: password-strength-checker-cli
+    stdin_open: true
+    tty: true
